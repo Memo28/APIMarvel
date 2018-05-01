@@ -13,9 +13,12 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class API {
 
-    public static final String APIKey = "5728cca78585bac6616b51f9760fc451";
+    public static final String APIKey = "YOUR Public API KEY";
     public static final String Ts = "1";
-    public static final String Hash = "ddb7edab259e9df433f1ea374ba602b9";
+    //You can generete on this page http://www.md5.cz
+    //USING
+    //ts+YourPrivateApiKey+YourPublicApiKey
+    public static final String Hash = "YOU HASH";
     public static final String BASE_URL = "https://gateway.marvel.com:443/v1/public/";
     public static Retrofit retrofit = null;
 
