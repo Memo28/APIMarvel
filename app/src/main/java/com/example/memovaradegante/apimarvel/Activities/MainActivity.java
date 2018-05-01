@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                         @Override
                         public void onFailure(Call<Character> call, Throwable t) {
-                            Toast.makeText(MainActivity.this, "Error"+ t,Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this, "Please try again",Toast.LENGTH_SHORT).show();
 
                         }
                     });
